@@ -14,6 +14,8 @@ public class moveChar : MonoBehaviour {
     public float vertVel = 0;
     public int laneNum = 2;
     public bool controlLocked = false;
+    public bool crouchLocked = false;
+    public bool jumpLocked = false;
 
     public Transform boomObj;
 
@@ -51,18 +53,19 @@ public class moveChar : MonoBehaviour {
             controlLocked = true;
         }
 
-        if (Input.GetKeyDown(jump) && isGrounded && controlLocked == false)
+        if (Input.GetKeyDown(jump) && isGrounded && jumpLocked == false)
             {
             GM.vertVel = 2;
             StartCoroutine(stopJump());
-            controlLocked = true;
+            jumpLocked = true;
         }
 
-        if (Input.GetKeyDown(down) && controlLocked == false)
+        if (Input.GetKeyDown(down) && crouchLocked == false)
         {
             gameObject.transform.localScale = new Vector3(0.8749517f, 0.5f, .8749518f);
+            StartCoroutine(stopCrouch());
+            crouchLocked = true;
             
-            //gameObject.transform.localScale = new Vector3(0.8749517f, 0.8838291f, .8749518f);
         }
     }
 
@@ -115,6 +118,13 @@ public class moveChar : MonoBehaviour {
         GM.vertVel = -2;
         yield return new WaitForSeconds(.3f);
         GM.vertVel = 0;
-        controlLocked = false;
+        jumpLocked = false;
+    }
+
+    IEnumerator stopCrouch()
+    {
+        yield return new WaitForSeconds(.3f);
+        gameObject.transform.localScale = new Vector3(0.8749517f, 0.8838291f, .8749518f);
+        crouchLocked = false;
     }
 }
