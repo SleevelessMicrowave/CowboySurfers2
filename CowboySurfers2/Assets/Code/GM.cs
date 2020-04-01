@@ -21,14 +21,14 @@ public class GM : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        SceneManager.LoadScene("beginningAnimation");
+        //SceneManager.LoadScene("beginningAnimation");
 
         Instantiate(bbNoPit, new Vector3(0, 0, 20), bbNoPit.rotation);
         Instantiate(bbPitMid, new Vector3(0, 0, 40), bbPitMid.rotation);
 
-        StartCoroutine(videoLength());
+        //StartCoroutine(videoLength());
 
-        SceneManager.LoadScene("Main");
+        //SceneManager.LoadScene("Main");
     }
 	
 	// Update is called once per frame
