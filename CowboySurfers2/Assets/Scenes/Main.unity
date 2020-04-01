@@ -1150,3 +1150,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roll: {fileID: 0}
   down: 115
+  myChildObject: {fileID: 2131171811}
+  myParentObject: {fileID: 1382794092}
+  rollLocked: 0
