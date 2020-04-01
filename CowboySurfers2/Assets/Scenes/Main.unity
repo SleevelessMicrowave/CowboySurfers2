@@ -983,7 +983,6 @@ GameObject:
   - component: {fileID: 1382794094}
   - component: {fileID: 1382794093}
   - component: {fileID: 1382794099}
-  - component: {fileID: 1382794100}
   - component: {fileID: 1382794096}
   m_Layer: 0
   m_Name: Sphere
@@ -1113,17 +1112,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6f3b249195a95d4b972ab3193ae0216, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1382794100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1382794092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea713f1a29f76214e8f4e3deb84fe920, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1803833821 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 4b3ee2eea810b684093885e4e0ab0c02, type: 3}
@@ -1162,3 +1150,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roll: {fileID: 0}
   down: 115
+  myChildObject: {fileID: 2131171811}
+  myParentObject: {fileID: 1382794092}
+  rollLocked: 0

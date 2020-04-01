@@ -6,6 +6,9 @@ public class rollController : MonoBehaviour {
 
     public Animator roll;
     public KeyCode down;
+    public GameObject myChildObject = new GameObject();
+    public GameObject myParentObject = new GameObject();
+    public bool rollLocked;
     
 
     // Use this for initialization
@@ -16,9 +19,13 @@ public class rollController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         
-		if (Input.GetKeyDown(down))
+        
+        
+        if (Input.GetKeyDown(down) && rollLocked == false)
         {
+            
             roll.Play("Roll");
+            rollLocked = true;
             StartCoroutine(stopCrouch());
         }
         
@@ -27,6 +34,11 @@ public class rollController : MonoBehaviour {
     IEnumerator stopCrouch()
     {
         yield return new WaitForSeconds(1.1f);
+
+        float horizontal = myParentObject.transform.position.x;
+        myChildObject.transform.position = new Vector3(horizontal, transform.position.y, transform.position.z);
+        myChildObject.transform.rotation = myParentObject.transform.rotation;
+        rollLocked = false;
         roll.Play("Run");
     }
 }

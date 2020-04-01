@@ -83,6 +83,7 @@ public class moveChar : MonoBehaviour {
             GM.zVelAdj = 0;
             Instantiate(boomObj, transform.position, boomObj.rotation);
             GM.lvlCompStatus = "fail";
+            
         }
     }
 
