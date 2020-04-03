@@ -58,7 +58,7 @@ public class moveChar : MonoBehaviour {
 
         if (Input.GetKeyDown(jump) && isGrounded && jumpLocked == false)
             {
-            GM.vertVel = 2;
+            GM.vertVel = 3;
             StartCoroutine(stopJump());
             jumpLocked = true;
         }
@@ -119,9 +119,9 @@ public class moveChar : MonoBehaviour {
 
     IEnumerator stopJump()
     {
-        yield return new WaitForSeconds(.3f);
-        GM.vertVel = -2;
-        yield return new WaitForSeconds(.3f);
+        yield return new WaitForSeconds(.35f);
+        GM.vertVel = -3;
+        yield return new WaitForSeconds(.35f);
         GM.vertVel = 0;
         jumpLocked = false;
     }
