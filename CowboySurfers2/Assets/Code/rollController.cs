@@ -28,9 +28,7 @@ public class rollController : MonoBehaviour {
             rollLocked = true;
             StartCoroutine(stopCrouch());
         }
-        /*float horizontal = myParentObject.transform.position.x;
-        myChildObject.transform.position = new Vector3(horizontal, myChildObject.transform.position.y, myChildObject.transform.position.z);
-        Debug.Log("Horizontal: " + horizontal + "y: " + myChildObject.transform.position.y + "z: " + myChildObject.transform.position.z);*/
+        
 
 
     }
