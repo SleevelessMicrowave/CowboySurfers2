@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 65443835127432884}
   - component: {fileID: 23079262457619296}
   m_Layer: 0
-  m_Name: empty
+  m_Name: bbNoPit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
