@@ -17,7 +17,7 @@ public class moveChar : MonoBehaviour {
     public bool crouchLocked = false;
     public bool jumpLocked = false;
 
-    
+    public GameObject cowboy;
 
     public Transform boomObj;
 
@@ -63,13 +63,13 @@ public class moveChar : MonoBehaviour {
             jumpLocked = true;
         }
 
-        /*if (Input.GetKeyDown(down) && crouchLocked == false)
+        if (Input.GetKeyDown(down) && crouchLocked == false)
         {
             gameObject.transform.localScale = new Vector3(0.8749517f, 0.5f, .8749518f);
             StartCoroutine(stopCrouch());
             crouchLocked =   true;
             
-        }*/
+        }
         
     }
 
@@ -80,6 +80,7 @@ public class moveChar : MonoBehaviour {
         {
 
             Destroy(gameObject);
+            Destroy(cowboy);
             GM.zVelAdj = 0;
             Instantiate(boomObj, transform.position, boomObj.rotation);
             GM.lvlCompStatus = "fail";
@@ -128,7 +129,7 @@ public class moveChar : MonoBehaviour {
 
     IEnumerator stopCrouch()
     {
-        yield return new WaitForSeconds(.3f);
+        yield return new WaitForSeconds(.9f);
         gameObject.transform.localScale = new Vector3(0.8749517f, 0.8838291f, .8749518f);
         crouchLocked = false;
     }
