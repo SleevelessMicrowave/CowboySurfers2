@@ -21,6 +21,7 @@ public class GM : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        
 
         Instantiate(bbNoPit, new Vector3(0, 0, 20), bbNoPit.rotation);
         Instantiate(bbPitMid, new Vector3(0, 0, 40), bbPitMid.rotation);
@@ -48,4 +49,6 @@ public class GM : MonoBehaviour {
             SceneManager.LoadScene("LevelComplete");
         }
 	}
+
+    
 }
