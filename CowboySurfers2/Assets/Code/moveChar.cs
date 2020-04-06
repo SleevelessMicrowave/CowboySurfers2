@@ -65,9 +65,14 @@ public class moveChar : MonoBehaviour {
 
         if (Input.GetKeyDown(down) && crouchLocked == false)
         {
+            
             gameObject.transform.localScale = new Vector3(0.8749517f, 0.5f, .8749518f);
+            Vector3 position = gameObject.transform.position;
+            position[1] = .955f;
+            gameObject.transform.position = position;
+            crouchLocked = true;
             StartCoroutine(stopCrouch());
-            crouchLocked =   true;
+            
             
         }
         
@@ -129,7 +134,10 @@ public class moveChar : MonoBehaviour {
 
     IEnumerator stopCrouch()
     {
-        yield return new WaitForSeconds(.9f);
+        yield return new WaitForSeconds(1.1f);
+        Vector3 position = gameObject.transform.position;
+        position[1] = 1.133f;
+        gameObject.transform.position = position;
         gameObject.transform.localScale = new Vector3(0.8749517f, 0.8838291f, .8749518f);
         crouchLocked = false;
     }
