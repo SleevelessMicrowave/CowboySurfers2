@@ -1,16 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class playAnimation : MonoBehaviour {
+
+    public GameObject skipButton;
 
 	// Use this for initialization
 	void Start () {
 
         StartCoroutine(videoLength());
 
-        Debug.Log("Works");
+        
+        
+    }
+
+    public void SkipButtonClicked()
+    {
+        skipButton.SetActive(true);
         SceneManager.LoadScene("Main");
     }
 	
@@ -21,8 +30,8 @@ public class playAnimation : MonoBehaviour {
 
     IEnumerator videoLength()
     {
-        Debug.Log("Works2");
-        yield return new WaitForSeconds(5);
         
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene("Main");
     }
 }
