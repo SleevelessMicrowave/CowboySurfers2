@@ -13,6 +13,10 @@ public class stats : MonoBehaviour {
 
     public void RestartButton()
     {
+        GM.lvlCompStatus = "";
+        GM.coinTotal = 0;
+        GM.timeTotal = 0;
+        GM.zVelAdj = 1;
         SceneManager.LoadScene("Main");
 
     }
