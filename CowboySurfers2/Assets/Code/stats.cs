@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class stats : MonoBehaviour {
@@ -8,6 +10,12 @@ public class stats : MonoBehaviour {
 	void Start () {
 		
 	}
+
+    public void RestartButton()
+    {
+        SceneManager.LoadScene("Main");
+
+    }
 
     // Update is called once per frame
     void Update() {
