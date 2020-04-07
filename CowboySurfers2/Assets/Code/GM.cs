@@ -9,6 +9,7 @@ public class GM : MonoBehaviour {
     public static int coinTotal = 0;
     public static float timeTotal = 0;
     public static float zVelAdj = 1;
+    
 
     public float waitToLoad = 0;
 
@@ -37,10 +38,16 @@ public class GM : MonoBehaviour {
             zScenePos += 20;
         }
 
-        timeTotal += Time.deltaTime;
+        if (lvlCompStatus != "fail")
+        {
+            timeTotal += Time.deltaTime;
+
+        }
+       
 		
         if (lvlCompStatus == "fail")
         {
+            
             waitToLoad += Time.deltaTime;
         }
 

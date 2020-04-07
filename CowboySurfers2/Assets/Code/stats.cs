@@ -30,5 +30,13 @@ public class stats : MonoBehaviour {
         {
             GetComponent<TextMesh>().text = "Time Elapsed: " + (Mathf.Round(GM.timeTotal*10))/10;
         }
-	}
+        if (gameObject.name == "BottleUI")
+        {
+            GetComponent<Text>().text = "Bottles Collected: " + GM.coinTotal;
+        }
+        if (gameObject.name == "timeUI")
+        {
+            GetComponent<Text>().text = "Time Elapsed: " + (Mathf.Round(GM.timeTotal * 10)) / 10;
+        }
+    }
 }
