@@ -9,7 +9,8 @@ public class GM : MonoBehaviour {
     public static int coinTotal = 0;
     public static float timeTotal = 0;
     public static float zVelAdj = 1;
-    
+
+    public KeyCode dynamite;
 
     public float waitToLoad = 0;
 
@@ -55,7 +56,17 @@ public class GM : MonoBehaviour {
         {
             SceneManager.LoadScene("LevelComplete");
         }
-	}
+
+        if (Input.GetKeyDown(dynamite))
+        {
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("lethal");
+            foreach (GameObject lethal in enemies)
+                GameObject.Destroy(lethal);
+        }
+
+    }
+
+   
 
     
 }
