@@ -749,6 +749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dynamite: 113
+  lasso: 101
   waitToLoad: 0
   bbNoPit: {fileID: 4662299357056062, guid: 7d336d6b6b402ed4a9c540e821ce26ee, type: 2}
   bbPitMid: {fileID: 4908785862854336, guid: a62ae0bd5b7fb4949b8a8f9563a92e0d, type: 2}
@@ -888,7 +889,7 @@ GameObject:
   - component: {fileID: 907900202}
   m_Layer: 0
   m_Name: waterBottle
-  m_TagString: Untagged
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -965,8 +966,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 907900201}
   m_LocalRotation: {x: 0.17863129, y: 0.005372993, z: 0.2304688, w: 0.9565282}
-  m_LocalPosition: {x: 1.2, y: 1.15, z: 0.11}
-  m_LocalScale: {x: 0.24020842, y: 0.24020834, z: 0.24020834}
+  m_LocalPosition: {x: 1.2, y: 1.15, z: 0.110000014}
+  m_LocalScale: {x: 0.24020842, y: 0.2402083, z: 0.24020831}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16

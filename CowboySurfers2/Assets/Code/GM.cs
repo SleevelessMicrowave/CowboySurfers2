@@ -11,6 +11,7 @@ public class GM : MonoBehaviour {
     public static float zVelAdj = 1;
 
     public KeyCode dynamite;
+    public KeyCode lasso;
 
     public float waitToLoad = 0;
 
@@ -62,6 +63,14 @@ public class GM : MonoBehaviour {
             GameObject[] enemies = GameObject.FindGameObjectsWithTag("lethal");
             foreach (GameObject lethal in enemies)
             GameObject.Destroy(lethal);
+        }
+
+        if (Input.GetKeyDown(lasso))
+        {
+            GameObject[] bottle = GameObject.FindGameObjectsWithTag("bottles");
+            foreach (GameObject bottles in bottle)
+            GameObject.Destroy(bottles);
+            GM.coinTotal += bottle.Length;
         }
 
     }
