@@ -61,7 +61,7 @@ public class GM : MonoBehaviour {
         {
             GameObject[] enemies = GameObject.FindGameObjectsWithTag("lethal");
             foreach (GameObject lethal in enemies)
-                GameObject.Destroy(lethal);
+            GameObject.Destroy(lethal);
         }
 
     }
