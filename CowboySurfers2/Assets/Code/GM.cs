@@ -22,6 +22,8 @@ public class GM : MonoBehaviour {
 
     public float zScenePos = 60;
 
+    public GameObject player;
+
 	// Use this for initialization
 	void Start () {
         
@@ -61,16 +63,35 @@ public class GM : MonoBehaviour {
         if (Input.GetKeyDown(dynamite))
         {
             GameObject[] enemies = GameObject.FindGameObjectsWithTag("lethal");
-            foreach (GameObject lethal in enemies)
-            GameObject.Destroy(lethal);
+            for (int i = 0; i < enemies.Length; i++)
+            {
+                float dist = Vector3.Distance(enemies[i].transform.position, player.transform.position);
+                Debug.Log(dist);
+                if (dist < 10)
+                {
+                    GameObject.Destroy(enemies[i]);
+                    
+                }
+            }
+            
         }
 
         if (Input.GetKeyDown(lasso))
         {
+            
             GameObject[] bottle = GameObject.FindGameObjectsWithTag("bottles");
-            foreach (GameObject bottles in bottle)
-            GameObject.Destroy(bottles);
-            GM.coinTotal += bottle.Length;
+            for (int i = 0; i < bottle.Length; i++)
+            {
+                float dist = Vector3.Distance(bottle[i].transform.position, player.transform.position);
+                Debug.Log(dist);
+                if (dist < 10)
+                {
+                    GameObject.Destroy(bottle[i]);
+                    GM.coinTotal++;
+                }
+            }
+            
+            
         }
 
     }
