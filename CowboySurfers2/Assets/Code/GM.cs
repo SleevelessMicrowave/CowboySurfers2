@@ -24,6 +24,9 @@ public class GM : MonoBehaviour {
 
     public GameObject player;
 
+    private bool dynamiteLocked = false;
+    private bool lassoLocked = false;
+
 	// Use this for initialization
 	void Start () {
         
@@ -60,7 +63,7 @@ public class GM : MonoBehaviour {
             SceneManager.LoadScene("LevelComplete");
         }
 
-        if (Input.GetKeyDown(dynamite))
+        if (Input.GetKeyDown(dynamite) && !dynamiteLocked)
         {
             GameObject[] enemies = GameObject.FindGameObjectsWithTag("lethal");
             for (int i = 0; i < enemies.Length; i++)
@@ -73,10 +76,11 @@ public class GM : MonoBehaviour {
                     
                 }
             }
-            
+            dynamiteLocked = true;
+            StartCoroutine(DynamiteUnlock());
         }
 
-        if (Input.GetKeyDown(lasso))
+        if (Input.GetKeyDown(lasso) && !lassoLocked)
         {
             
             GameObject[] bottle = GameObject.FindGameObjectsWithTag("bottles");
@@ -90,10 +94,24 @@ public class GM : MonoBehaviour {
                     GM.coinTotal++;
                 }
             }
-            
-            
+            lassoLocked = true;
+            StartCoroutine(LassoUnlock());
         }
 
+    }
+
+    IEnumerator LassoUnlock()
+    {
+        yield return new WaitForSeconds(20);
+        Debug.Log("works1");
+        lassoLocked = false;
+    }
+
+    IEnumerator DynamiteUnlock()
+    {
+        yield return new WaitForSeconds(30);
+        Debug.Log("works2");
+        dynamiteLocked = false;
     }
 
    
