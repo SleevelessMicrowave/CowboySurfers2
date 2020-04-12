@@ -43,7 +43,7 @@ public class moveChar : MonoBehaviour {
         if ((Input.GetKeyDown(moveL) && (laneNum > 1) && controlLocked == false))
         {
             horizVel = -2;
-            StartCoroutine(stopSlide());
+            StartCoroutine(StopSlide());
             laneNum--;
             controlLocked = true;
         }
@@ -51,7 +51,7 @@ public class moveChar : MonoBehaviour {
         if ((Input.GetKeyDown(moveR) && (laneNum < 3) && controlLocked == false))
         {
             horizVel = 2;
-            StartCoroutine(stopSlide());
+            StartCoroutine(StopSlide());
             laneNum++;
             controlLocked = true;
         }
@@ -59,7 +59,7 @@ public class moveChar : MonoBehaviour {
         if (Input.GetKeyDown(jump) && isGrounded && jumpLocked == false)
             {
             GM.vertVel = 3;
-            StartCoroutine(stopJump());
+            StartCoroutine(StopJump());
             jumpLocked = true;
         }
 
@@ -71,7 +71,7 @@ public class moveChar : MonoBehaviour {
             position[1] = .955f;
             gameObject.transform.position = position;
             crouchLocked = true;
-            StartCoroutine(stopCrouch());
+            StartCoroutine(StopCrouch());
             
             
         }
@@ -115,7 +115,7 @@ public class moveChar : MonoBehaviour {
         
     }
 
-    IEnumerator stopSlide()
+    IEnumerator StopSlide()
     {
         yield return new WaitForSeconds(.5f);
         horizVel = 0;
@@ -123,7 +123,7 @@ public class moveChar : MonoBehaviour {
         controlLocked = false;
     }
 
-    IEnumerator stopJump()
+    IEnumerator StopJump()
     {
         yield return new WaitForSeconds(.35f);
         GM.vertVel = -3;
@@ -132,7 +132,7 @@ public class moveChar : MonoBehaviour {
         jumpLocked = false;
     }
 
-    IEnumerator stopCrouch()
+    IEnumerator StopCrouch()
     {
         yield return new WaitForSeconds(1.1f);
         Vector3 position = gameObject.transform.position;
