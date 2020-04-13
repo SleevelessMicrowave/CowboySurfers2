@@ -7,6 +7,7 @@ using UnityEngine;
 public class playAnimation : MonoBehaviour {
 
     public GameObject skipButton;
+    public GameObject playButton;
 
 	// Use this for initialization
 	void Start () {
@@ -20,6 +21,12 @@ public class playAnimation : MonoBehaviour {
     public void SkipButtonClicked()
     {
         skipButton.SetActive(true);
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void PlayButtonClicked()
+    {
+        playButton.SetActive(true);
         SceneManager.LoadScene("Main");
     }
 	

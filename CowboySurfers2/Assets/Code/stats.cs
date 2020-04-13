@@ -21,6 +21,15 @@ public class stats : MonoBehaviour {
 
     }
 
+    public void RestartMainMenu()
+    {
+        GM.lvlCompStatus = "";
+        GM.coinTotal = 0;
+        GM.timeTotal = 0;
+        GM.zVelAdj = 1;
+        SceneManager.LoadScene("MainMenu");
+    }
+
     // Update is called once per frame
     void Update() {
         if (gameObject.name == "CoinTotal") { 
