@@ -21,9 +21,10 @@ GameObject:
   - component: {fileID: 4335558006812262}
   - component: {fileID: 33628200997574598}
   - component: {fileID: 23903767634797600}
+  - component: {fileID: 65474139869245982}
   m_Layer: 0
   m_Name: Rock_Obstacle
-  m_TagString: Untagged
+  m_TagString: lethal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1681466278944446}
   m_LocalRotation: {x: -0.05768112, y: 0.7047503, z: 0.70475024, w: 0.057681125}
-  m_LocalPosition: {x: 2.52, y: 2.23, z: 7.2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 60, y: 80, z: 60}
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,3 +83,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1681466278944446}
   m_Mesh: {fileID: 4300000, guid: f4aef66134c6e094cbe5c3c42efe0adf, type: 3}
+--- !u!65 &65474139869245982
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1681466278944446}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01613819, y: 0.01097084, z: 0.015576101}
+  m_Center: {x: 0.001921721, y: -0.001508829, z: -0.0010827484}
