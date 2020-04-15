@@ -18,6 +18,8 @@ public class moveChar : MonoBehaviour {
     public bool jumpLocked = false;
 
     public GameObject cowboy;
+    public GameObject sphere;
+    public GameObject cube;
 
     public Transform boomObj;
 
@@ -38,7 +40,7 @@ public class moveChar : MonoBehaviour {
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-        
+        sphere.transform.rotation = cube.transform.rotation;
 
         if ((Input.GetKeyDown(moveL) && (laneNum > 1) && controlLocked == false))
         {
@@ -63,7 +65,7 @@ public class moveChar : MonoBehaviour {
             jumpLocked = true;
         }
 
-        if (Input.GetKeyDown(down) && crouchLocked == false)
+        if (Input.GetKeyDown(down) && crouchLocked == false && jumpLocked == false)
         {
             
             gameObject.transform.localScale = new Vector3(0.8749517f, 0.5f, .8749518f);
