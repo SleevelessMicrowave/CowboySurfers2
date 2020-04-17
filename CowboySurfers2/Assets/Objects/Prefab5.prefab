@@ -58,8 +58,9 @@ GameObject:
   - component: {fileID: 33221804911206198}
   - component: {fileID: 65960454985386110}
   - component: {fileID: 23855037894781440}
+  - component: {fileID: 114226138421063836}
   m_Layer: 0
-  m_Name: Prefab5 1
+  m_Name: Prefab5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2382,6 +2383,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114226138421063836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072484101282362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96b3fb22175173408e60f49c4135112, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &136173948134979418
 CapsuleCollider:
   m_ObjectHideFlags: 1

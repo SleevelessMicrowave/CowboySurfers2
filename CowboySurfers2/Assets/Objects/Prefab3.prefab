@@ -400,8 +400,9 @@ GameObject:
   - component: {fileID: 33205529496746282}
   - component: {fileID: 65843217355560042}
   - component: {fileID: 23059021406179260}
+  - component: {fileID: 114158532686011006}
   m_Layer: 0
-  m_Name: Prefab3 1
+  m_Name: Prefab3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2538,6 +2539,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.003488426, y: 0.009335415, z: 0.003488426}
   m_Center: {x: 0, y: -0.001518103, z: -0.000000004773028}
+--- !u!114 &114158532686011006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1620265592911428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96b3fb22175173408e60f49c4135112, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &136000637962822088
 CapsuleCollider:
   m_ObjectHideFlags: 1

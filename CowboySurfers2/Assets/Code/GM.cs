@@ -20,7 +20,7 @@ public class GM : MonoBehaviour {
     public GameObject[] routes = new GameObject[7];
 
     private float zScenePos = 20;
-    private float zScenePosLimit = 40;
+    private float zScenePosLimit = 0;
 
     public GameObject player;
 
@@ -30,15 +30,6 @@ public class GM : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-
-
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
         /*if (timeTotal < zScenePosLimit)
         {
             int num = Random.Range(0, 7);
@@ -49,6 +40,31 @@ public class GM : MonoBehaviour {
                 zScenePosLimit += 60;
             }
         }*/
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (player != null)
+        {
+            Vector3 position = player.transform.position;
+            Debug.Log(position[2]);
+            if (position[2] > zScenePosLimit)
+            {
+                for (int i = 0; i < 5; i++)
+                {
+                    int num = Random.Range(0, 7);
+                    Instantiate(routes[num], new Vector3(0, 0, zScenePos), routes[0].transform.rotation);
+                    zScenePos += 20;
+
+                }
+                zScenePosLimit += 80;
+            }
+        }
+        
+        
 
         if (lvlCompStatus != "fail")
         {
@@ -92,7 +108,7 @@ public class GM : MonoBehaviour {
             for (int i = 0; i < bottle.Length; i++)
             {
                 float dist = Vector3.Distance(bottle[i].transform.position, player.transform.position);
-                Debug.Log(dist);
+                
                 if (dist < 10)
                 {
                     GameObject.Destroy(bottle[i]);
@@ -104,6 +120,8 @@ public class GM : MonoBehaviour {
         }
 
     }
+
+    
 
     IEnumerator LassoUnlock()
     {
