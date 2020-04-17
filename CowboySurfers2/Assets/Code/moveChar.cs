@@ -32,18 +32,15 @@ public class moveChar : MonoBehaviour {
 	void Start () {
 		
 	}
-
-    // Update is called once per frame
-    void Update() {
-
+	
+	// Update is called once per frame
+	void Update () {
+        
         GetComponent<Rigidbody>().velocity = new Vector3(horizVel, GM.vertVel, 4);
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-        if (sphere != null)
-        { 
         sphere.transform.rotation = cube.transform.rotation;
-        }
 
         if ((Input.GetKeyDown(moveL) && (laneNum > 1) && controlLocked == false))
         {

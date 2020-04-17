@@ -17,10 +17,16 @@ public class GM : MonoBehaviour {
 
     public static string lvlCompStatus = "";
 
-    public GameObject[] routes = new GameObject[7];
+    public Transform bbNoPit;
+    public Transform bbPitMid;
+    public Transform Prefab_1;
+    public Transform Prefab_2;
+    public Transform Prefab_3;
+    public Transform Prefab_4;
+    public Transform Prefab_5;
+    public Transform Prefab_6;
 
-    private float zScenePos = 20;
-    private float zScenePosLimit = 40;
+    private float zScenePos = 60;
 
     public GameObject player;
 
@@ -31,20 +37,22 @@ public class GM : MonoBehaviour {
 	void Start () {
         
 
-        
+        /*Instantiate(bbNoPit, new Vector3(0, 0, 20), bbNoPit.rotation);
+        Instantiate(Prefab_1, new Vector3(0, 0, 40), Prefab_1.rotation);
+        Instantiate(Prefab_2, new Vector3(0, 0, 60), Prefab_2.rotation);
+        Instantiate(Prefab_3, new Vector3(0, 0, 80), Prefab_3.rotation);
+        Instantiate(Prefab_4, new Vector3(0, 0, 100), Prefab_4.rotation);
+        Instantiate(Prefab_5, new Vector3(0, 0, 120), Prefab_5.rotation);
+        Instantiate(Prefab_6, new Vector3(0, 0, 140), Prefab_6.rotation);*/
     }
 	
 	// Update is called once per frame
 	void Update () {
-        if (timeTotal < zScenePosLimit)
+        if (zScenePos < 120)
         {
-            int num = Random.Range(0, 7);
-            Instantiate(routes[num], new Vector3(0, 0, zScenePos), routes[0].transform.rotation);
+            
+            Instantiate(bbNoPit, new Vector3(0, 0, zScenePos), bbNoPit.rotation);
             zScenePos += 20;
-            if (zScenePosLimit - 20 == timeTotal)
-            {
-                zScenePosLimit += 60;
-            }
         }
 
         if (lvlCompStatus != "fail")
