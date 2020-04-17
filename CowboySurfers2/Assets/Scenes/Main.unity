@@ -667,14 +667,14 @@ MonoBehaviour:
   dynamite: 113
   lasso: 101
   waitToLoad: 0
-  bbNoPit: {fileID: 4662299357056062, guid: 7d336d6b6b402ed4a9c540e821ce26ee, type: 2}
-  bbPitMid: {fileID: 4908785862854336, guid: a62ae0bd5b7fb4949b8a8f9563a92e0d, type: 2}
-  Prefab_1: {fileID: 4555323610923892, guid: 700cabdc59a2a364f9003b94170b1c81, type: 2}
-  Prefab_2: {fileID: 4282833452187144, guid: d8ace3f24ab7af14fb104a2158ac4a25, type: 2}
-  Prefab_3: {fileID: 4810092313479896, guid: a9bc5e6b3c3840e4eb008ba709abaefd, type: 2}
-  Prefab_4: {fileID: 4336260348394150, guid: 7a34586bbeeab9944b2182ad42a09bbb, type: 2}
-  Prefab_5: {fileID: 4906117481953790, guid: 6aa8f50f01caea9469f021c5661485e6, type: 2}
-  Prefab_6: {fileID: 4972568394163852, guid: 8808f153eef49934b8fc0bea066bdc87, type: 2}
+  routes:
+  - {fileID: 1455667708392830, guid: 7d336d6b6b402ed4a9c540e821ce26ee, type: 2}
+  - {fileID: 1248783502430756, guid: 700cabdc59a2a364f9003b94170b1c81, type: 2}
+  - {fileID: 1607861488711376, guid: d8ace3f24ab7af14fb104a2158ac4a25, type: 2}
+  - {fileID: 1295129066815830, guid: a9bc5e6b3c3840e4eb008ba709abaefd, type: 2}
+  - {fileID: 1657582418393536, guid: 7a34586bbeeab9944b2182ad42a09bbb, type: 2}
+  - {fileID: 1712931618534638, guid: 6aa8f50f01caea9469f021c5661485e6, type: 2}
+  - {fileID: 1190725235991918, guid: 8808f153eef49934b8fc0bea066bdc87, type: 2}
   player: {fileID: 2131171811}
 --- !u!4 &553658364
 Transform:
