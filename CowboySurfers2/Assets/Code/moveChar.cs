@@ -47,7 +47,7 @@ public class moveChar : MonoBehaviour {
 
         if ((Input.GetKeyDown(moveL) && (laneNum > 1) && controlLocked == false))
         {
-            horizVel = -2;
+            horizVel = -2.7f;
             StartCoroutine(StopSlide());
             laneNum--;
             controlLocked = true;
@@ -55,7 +55,7 @@ public class moveChar : MonoBehaviour {
 
         if ((Input.GetKeyDown(moveR) && (laneNum < 3) && controlLocked == false))
         {
-            horizVel = 2;
+            horizVel = 2.7f;
             StartCoroutine(StopSlide());
             laneNum++;
             controlLocked = true;

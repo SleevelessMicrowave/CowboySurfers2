@@ -38,6 +38,7 @@ public class GM : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        
         /*if (timeTotal < zScenePosLimit)
         {
             int num = Random.Range(0, 7);
@@ -73,7 +74,7 @@ public class GM : MonoBehaviour {
             for (int i = 0; i < enemies.Length; i++)
             {
                 float dist = Vector3.Distance(enemies[i].transform.position, player.transform.position);
-                Debug.Log(dist);
+                
                 if (dist < 10)
                 {
                     GameObject.Destroy(enemies[i]);
