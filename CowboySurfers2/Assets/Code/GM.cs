@@ -38,7 +38,7 @@ public class GM : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (timeTotal < zScenePosLimit)
+        /*if (timeTotal < zScenePosLimit)
         {
             int num = Random.Range(0, 7);
             Instantiate(routes[num], new Vector3(0, 0, zScenePos), routes[0].transform.rotation);
@@ -47,7 +47,7 @@ public class GM : MonoBehaviour {
             {
                 zScenePosLimit += 60;
             }
-        }
+        }*/
 
         if (lvlCompStatus != "fail")
         {
