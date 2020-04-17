@@ -17,16 +17,16 @@ public class GM : MonoBehaviour {
 
     public static string lvlCompStatus = "";
 
-    public Transform bbNoPit;
-    public Transform bbPitMid;
-    public Transform Prefab_1;
-    public Transform Prefab_2;
-    public Transform Prefab_3;
-    public Transform Prefab_4;
-    public Transform Prefab_5;
-    public Transform Prefab_6;
+    public Transform n1;
+    public Transform n2;
+    public Transform n3;
+    public Transform n4;
+    public Transform n5;
+    public Transform n6;
+    public Transform n7;
+    public Transform n8;
 
-    private float zScenePos = 60;
+    private float zScenePos = 20;
 
     public GameObject player;
 
@@ -50,8 +50,8 @@ public class GM : MonoBehaviour {
 	void Update () {
         if (zScenePos < 120)
         {
-            
-            Instantiate(bbNoPit, new Vector3(0, 0, zScenePos), bbNoPit.rotation);
+            Debug.Log(Math.random()*8); 
+            Instantiate(n + Math.random()*8, new Vector3(0, 0, zScenePos), n1.rotation);
             zScenePos += 20;
         }
 
