@@ -50,8 +50,8 @@ public class GM : MonoBehaviour {
 	void Update () {
         if (zScenePos < 120)
         {
-            Debug.Log(Math.random()*8); 
-            Instantiate(n + Math.random()*8, new Vector3(0, 0, zScenePos), n1.rotation);
+            //Debug.Log(Math.random()*8); 
+            //Instantiate(n + Math.random()*8, new Vector3(0, 0, zScenePos), n1.rotation);
             zScenePos += 20;
         }
 
