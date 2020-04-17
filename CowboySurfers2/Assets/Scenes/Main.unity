@@ -1144,7 +1144,7 @@ MonoBehaviour:
   - {fileID: 1825571424461814, guid: 226cfb28df9508d4ab3314f354ad37fc, type: 2}
   - {fileID: 1048491138988788, guid: 27898571653b0014782bc7b5c716a080, type: 2}
   - {fileID: 1338857365794142, guid: 706eb784e3a840b419c867a4b6c76614, type: 2}
-  player: {fileID: 0}
+  player: {fileID: 2131171811}
 --- !u!4 &553658364
 Transform:
   m_ObjectHideFlags: 0
@@ -2708,7 +2708,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.49999997
-  m_Height: 1
+  m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1382794097
@@ -2725,8 +2725,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1382794092}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.12249324, y: 0.8219611, z: 0.07999992}
-  m_LocalScale: {x: 0.8749517, y: 0.8838292, z: 0.8749518}
+  m_LocalPosition: {x: -0.12249, y: 0.8219611, z: 0.098}
+  m_LocalScale: {x: 0.51322407, y: 0.7453026, z: 0.5637311}
   m_Children: []
   m_Father: {fileID: 974268570}
   m_RootOrder: 0
