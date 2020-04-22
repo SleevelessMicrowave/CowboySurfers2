@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d2d94a27cbfba18478e3d12fd5409a8b
+guid: 75744d91cb0164f4a8aa32f3c8b0d5c7
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -7,13 +7,14 @@ ModelImporter:
     400000: //RootNode
     2100000: 16 - Default
     2100002: 06 - Default
-    2100004: 01 - Default
+    2100004: 23 - Default
     2100006: 08 - Default
-    2100008: 02 - Default
+    2100008: 01 - Default
+    2100010: 20 - Default
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Store
-    7400000: Store|Box017|Take 001|BaseLayer
+    4300000: Train Station
+    7400000: Train Station|Box021|Take 001|BaseLayer
     9500000: //RootNode
   externalObjects: {}
   materials:

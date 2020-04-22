@@ -18,6 +18,8 @@ public class GM : MonoBehaviour {
     public static string lvlCompStatus = "";
 
     public GameObject[] routes = new GameObject[7];
+    public GameObject[] buildings = new GameObject[2];
+    public GameObject ground;
 
     private float zScenePos = 20;
     private float zScenePosLimit = 0;
@@ -30,16 +32,7 @@ public class GM : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        /*if (timeTotal < zScenePosLimit)
-        {
-            int num = Random.Range(0, 7);
-            Instantiate(routes[num], new Vector3(0, 0, zScenePos), routes[0].transform.rotation);
-            zScenePos += 20;
-            if (zScenePosLimit - 20 == timeTotal)
-            {
-                zScenePosLimit += 60;
-            }
-        }*/
+        
 
 
     }
@@ -56,6 +49,10 @@ public class GM : MonoBehaviour {
                 for (int i = 0; i < 5; i++)
                 {
                     int num = Random.Range(0, 7);
+                    int buildingNum = Random.Range(0, 2);
+                    Instantiate(ground, new Vector3(0, 0, zScenePos), ground.transform.rotation);
+                    Instantiate(buildings[buildingNum], new Vector3(-6, 0.5f, zScenePos), buildings[0].transform.rotation);
+                    //Instantiate(buildings[buildingNum], new Vector3(6, 0.5f, zScenePos-5), );
                     Instantiate(routes[num], new Vector3(0, 0, zScenePos), routes[0].transform.rotation);
                     zScenePos += 20;
 
