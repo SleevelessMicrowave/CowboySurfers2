@@ -50,9 +50,10 @@ public class GM : MonoBehaviour {
                 {
                     int num = Random.Range(0, 7);
                     int buildingNum = Random.Range(0, 2);
+                    int anotherBuildingNum = Random.Range(0, 2);
                     Instantiate(ground, new Vector3(0, 0, zScenePos), ground.transform.rotation);
                     Instantiate(buildings[buildingNum], new Vector3(-6, 0.5f, zScenePos), buildings[0].transform.rotation);
-                    //Instantiate(buildings[buildingNum], new Vector3(6, 0.5f, zScenePos-5), );
+                    Instantiate(buildings[anotherBuildingNum], new Vector3(6, 0.5f, zScenePos-5), Quaternion.Euler(-90, 0, 180));
                     Instantiate(routes[num], new Vector3(0, 0, zScenePos), routes[0].transform.rotation);
                     zScenePos += 20;
 
