@@ -18,10 +18,10 @@ public class GM : MonoBehaviour {
     public static string lvlCompStatus = "";
 
     public GameObject[] routes = new GameObject[7];
-    public GameObject[] buildings = new GameObject[2];
+    public GameObject[] buildings;
     public GameObject ground;
 
-    private float zScenePos = 20;
+    private int zScenePos = 20;
     private float zScenePosLimit = 0;
 
     public GameObject player;
@@ -43,17 +43,22 @@ public class GM : MonoBehaviour {
         if (player != null)
         {
             Vector3 position = player.transform.position;
-            Debug.Log(position[2]);
+            
             if (position[2] > zScenePosLimit)
             {
                 for (int i = 0; i < 5; i++)
                 {
                     int num = Random.Range(0, 7);
-                    int buildingNum = Random.Range(0, 2);
-                    int anotherBuildingNum = Random.Range(0, 2);
+                    int buildingNum = Random.Range(0, 5);
+                    int anotherBuildingNum = Random.Range(0, 5);
                     Instantiate(ground, new Vector3(0, 0, zScenePos), ground.transform.rotation);
-                    Instantiate(buildings[buildingNum], new Vector3(-6, 0.5f, zScenePos), buildings[0].transform.rotation);
-                    Instantiate(buildings[anotherBuildingNum], new Vector3(6, 0.5f, zScenePos-5), Quaternion.Euler(-90, 0, 180));
+                    Instantiate(buildings[buildingNum], new Vector3(-7, 0.5f, zScenePos), buildings[0].transform.rotation);
+                    buildingNum = Random.Range(0, 5);
+                    Instantiate(buildings[buildingNum], new Vector3(-7, 0.5f, zScenePos + 10), buildings[0].transform.rotation);
+                    
+                    Instantiate(buildings[anotherBuildingNum], new Vector3(7, 0.5f, zScenePos-5), Quaternion.Euler(-90, 0, 180));
+                    anotherBuildingNum = Random.Range(0, 5);
+                    Instantiate(buildings[anotherBuildingNum], new Vector3(7, 0.5f, zScenePos + 5), Quaternion.Euler(-90, 0, 180));
                     Instantiate(routes[num], new Vector3(0, 0, zScenePos), routes[0].transform.rotation);
                     zScenePos += 20;
 
@@ -124,14 +129,14 @@ public class GM : MonoBehaviour {
     IEnumerator LassoUnlock()
     {
         yield return new WaitForSeconds(20);
-        Debug.Log("works1");
+        
         lassoLocked = false;
     }
 
     IEnumerator DynamiteUnlock()
     {
         yield return new WaitForSeconds(30);
-        Debug.Log("works2");
+        
         dynamiteLocked = false;
     }
 
