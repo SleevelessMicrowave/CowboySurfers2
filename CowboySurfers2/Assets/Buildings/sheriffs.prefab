@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23425003207520178}
   - component: {fileID: 95687485433846686}
   m_Layer: 0
-  m_Name: Sheriffs
+  m_Name: sheriffs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
