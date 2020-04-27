@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: a5ea19beaba00d54a93918af2f398f36
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2100000: 08 - Default.014
+    2100002: 06 - Default
+    2100004: 'Material #57'
+    2100006: 'Material #56'
+    2100008: 10 - Default.001
+    2100010: 20 - Default.003
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Hotel
+    7400000: Hotel|Bank.001|Bank|Bank|Bank|Box020|Take 001|BaseLayer|Bank|Box020|T
+    7400002: Hotel|Bank.001|Bank|Sherrifs Office|Sherrifs Office|Box048|Take 001|B
+    7400004: Hotel|Bank.002|Bank.001|Bank.001|Bank|Bank|Bank|Box020|Take 001|BaseL
+    7400006: Hotel|Bank.002|Bank.001|Bank.001|Bank|Sherrifs Office|Sherrifs Office
+    7400008: Hotel|Bank.002|Bank.001|Bank|Bank|Box020|Take 001|BaseLayer|Bank|Box0
+    7400010: Hotel|Bank.002|Bank.001|Sherrifs Office|Sherrifs Office|Box048|Take 0
+    7400012: Hotel|Bank|Bank|Box020|Take 001|BaseLayer|Bank|Box020|Take 001|Ba
+    7400014: Hotel|Bank|Bank|Box020|Take 001|BaseLayer|Bank|Box020|Take 001|BaseLa
+    7400016: Hotel|Barn|Barn|Box010|Take 001|BaseLayer|Barn|Box010|Take 001|BaseLa
+    7400018: Hotel|Church.001|Church|Bank.001|Bank|Bank|Bank|Box020|Take 001|B
+    7400020: Hotel|Church.001|Church|Bank.001|Bank|Bank|Bank|Box020|Take 001|BaseL
+    7400022: Hotel|Church.001|Church|Bank.001|Bank|Sherrifs Office|Sherrifs Of
+    7400024: Hotel|Church.001|Church|Bank.001|Bank|Sherrifs Office|Sherrifs Office
+    7400026: Hotel|Church.001|Church|Bank.002|Bank.001|Bank.001|Bank|Bank|Bank
+    7400028: Hotel|Church.001|Church|Bank.002|Bank.001|Bank.001|Bank|Bank|Bank|Box
+    7400030: 'Hotel|Church.001|Church|Bank.002|Bank.001|Bank.001|Bank|Sherrifs '
+    7400032: Hotel|Church.001|Church|Bank.002|Bank.001|Bank.001|Bank|Sherrifs Offi
+    7400034: Hotel|Church.001|Church|Bank.002|Bank.001|Bank|Bank|Box020|Take 0
+    7400036: Hotel|Church.001|Church|Bank.002|Bank.001|Bank|Bank|Box020|Take 001|B
+    7400038: Hotel|Church.001|Church|Bank.002|Bank.001|Sherrifs Office|Sherrif
+    7400040: Hotel|Church.001|Church|Bank.002|Bank.001|Sherrifs Office|Sherrifs Of
+    7400042: Hotel|Church.001|Church|Bank|Bank|Box020|Take 001|BaseLayer|Bank|
+    7400044: Hotel|Church.001|Church|Bank|Bank|Box020|Take 001|BaseLayer|Bank|Box0
+    7400046: Hotel|Church.001|Church|Barn|Barn|Box010|Take 001|BaseLayer|Barn|
+    7400048: Hotel|Church.001|Church|Barn|Barn|Box010|Take 001|BaseLayer|Barn|Box0
+    7400050: Hotel|Church.001|Church|Church.001|Church|Bank.001|Bank|Bank|Bank|Box
+    7400052: Hotel|Church.001|Church|Church.001|Church|Bank.001|Bank|Sherrifs Offi
+    7400054: Hotel|Church.001|Church|Church.001|Church|Bank.002|Bank.001|Bank.
+    7400056: Hotel|Church.001|Church|Church.001|Church|Bank.002|Bank.001|Bank.001|
+    7400058: Hotel|Church.001|Church|Church.001|Church|Bank.002|Bank.001|Bank|Bank
+    7400060: 'Hotel|Church.001|Church|Church.001|Church|Bank.002|Bank.001|Sherrifs '
+    7400062: Hotel|Church.001|Church|Church.001|Church|Bank|Bank|Box020|Take 001|B
+    7400064: Hotel|Church.001|Church|Church.001|Church|Barn|Barn|Box010|Take 001|B
+    7400066: Hotel|Church.001|Church|Church.001|Church|Church|Church|Box011|Take 0
+    7400068: Hotel|Church.001|Church|Church.001|Church|Sherrifs Office|Sherrifs Of
+    7400070: Hotel|Church.001|Church|Church.001|Church|Water Tower.001|Water T
+    7400072: Hotel|Church.001|Church|Church.001|Church|Water Tower.001|Water T.001
+    7400074: Hotel|Church.001|Church|Church.001|Church|Water Tower.001|Water T.002
+    7400076: Hotel|Church.001|Church|Church.001|Church|Water Tower.001|Water T.003
+    7400078: Hotel|Church.001|Church|Church.001|Church|Water Tower.001|Water T.004
+    7400080: Hotel|Church.001|Church|Church.001|Church|Water Tower.001|Water T.005
+    7400082: Hotel|Church.001|Church|Church.001|Church|Water Tower.001|Water T.006
+    7400084: Hotel|Church.001|Church|Church.001|Church|Water Tower.001|Water T.007
+    7400086: Hotel|Church.001|Church|Church.001|Church|Water Tower.001|Water Tower
+    7400088: Hotel|Church.001|Church|Church.001|Church|Water Tower|Water Tower|Box
+    7400090: Hotel|Church.001|Church|Church|Church|Box011|Take 001|BaseLayer|C
+    7400092: Hotel|Church.001|Church|Church|Church|Box011|Take 001|BaseLayer|Churc
+    7400094: Hotel|Church.001|Church|Sherrifs Office|Sherrifs Office|Box048|Ta
+    7400096: Hotel|Church.001|Church|Sherrifs Office|Sherrifs Office|Box048|Take 0
+    7400098: Hotel|Church.001|Church|Water Tower.001|Water Tower|Bank.001|Bank
+    7400100: Hotel|Church.001|Church|Water Tower.001|Water Tower|Bank.001|Bank.001
+    7400102: Hotel|Church.001|Church|Water Tower.001|Water Tower|Bank.001|Bank|Ban
+    7400104: Hotel|Church.001|Church|Water Tower.001|Water Tower|Bank.001|Bank|She
+    7400106: Hotel|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.001
+    7400108: Hotel|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.002
+    7400110: Hotel|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.003
+    7400112: Hotel|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.004
+    7400114: Hotel|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.005
+    7400116: Hotel|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.006
+    7400118: Hotel|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.007
+    7400120: Hotel|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.008
+    7400122: Hotel|Church.001|Church|Water Tower.001|Water Tower|Bank|Bank|Box
+    7400124: Hotel|Church.001|Church|Water Tower.001|Water Tower|Bank|Bank|Box020|
+    7400126: Hotel|Church.001|Church|Water Tower.001|Water Tower|Sherrifs Offi
+    7400128: Hotel|Church.001|Church|Water Tower.001|Water Tower|Sherrifs Office|S
+    7400130: Hotel|Church.001|Church|Water Tower.001|Water Tower|Water Tower|W
+    7400132: Hotel|Church.001|Church|Water Tower.001|Water Tower|Water Tower|Water
+    7400134: Hotel|Church.001|Church|Water Tower|Water Tower|Box506|Take 001|B
+    7400136: Hotel|Church.001|Church|Water Tower|Water Tower|Box506|Take 001|BaseL
+    7400138: Hotel|Church|Church|Box011|Take 001|BaseLayer|Church|Box011|Take 001|
+    7400140: Hotel|Hotel|Hotel|Box025|Take 001|BaseLayer|Hotel|Box025|Take 001|Bas
+    7400142: Hotel|Sherrifs Office.001|Sherrifs Office|Bank.001|Bank|Bank|Bank
+    7400144: Hotel|Sherrifs Office.001|Sherrifs Office|Bank.001|Bank|Bank|Bank|Box
+    7400146: 'Hotel|Sherrifs Office.001|Sherrifs Office|Bank.001|Bank|Sherrifs '
+    7400148: Hotel|Sherrifs Office.001|Sherrifs Office|Bank.001|Bank|Sherrifs Offi
+    7400150: Hotel|Sherrifs Office.001|Sherrifs Office|Bank.002|Bank.001|Bank.
+    7400152: Hotel|Sherrifs Office.001|Sherrifs Office|Bank.002|Bank.001|Bank..001
+    7400154: Hotel|Sherrifs Office.001|Sherrifs Office|Bank.002|Bank.001|Bank..002
+    7400156: Hotel|Sherrifs Office.001|Sherrifs Office|Bank.002|Bank.001|Bank.001|
+    7400158: Hotel|Sherrifs Office.001|Sherrifs Office|Bank.002|Bank.001|Bank|
+    7400160: Hotel|Sherrifs Office.001|Sherrifs Office|Bank.002|Bank.001|Bank|Bank
+    7400162: Hotel|Sherrifs Office.001|Sherrifs Office|Bank.002|Bank.001|Sherr
+    7400164: 'Hotel|Sherrifs Office.001|Sherrifs Office|Bank.002|Bank.001|Sherrifs '
+    7400166: Hotel|Sherrifs Office.001|Sherrifs Office|Bank|Bank|Box020|Take 0
+    7400168: Hotel|Sherrifs Office.001|Sherrifs Office|Bank|Bank|Box020|Take 0.001
+    7400170: Hotel|Sherrifs Office.001|Sherrifs Office|Bank|Bank|Box020|Take 0.002
+    7400172: Hotel|Sherrifs Office.001|Sherrifs Office|Bank|Bank|Box020|Take 001|B
+    7400174: Hotel|Sherrifs Office.001|Sherrifs Office|Barn|Barn|Box010|Take 0
+    7400176: Hotel|Sherrifs Office.001|Sherrifs Office|Barn|Barn|Box010|Take 001|B
+    7400178: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank.
+    7400180: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..001
+    7400182: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..002
+    7400184: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..003
+    7400186: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..004
+    7400188: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..005
+    7400190: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..006
+    7400192: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..007
+    7400194: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..008
+    7400196: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..009
+    7400198: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..010
+    7400200: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..011
+    7400202: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..012
+    7400204: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..013
+    7400206: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..014
+    7400208: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..015
+    7400210: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..016
+    7400212: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..017
+    7400214: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..018
+    7400216: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..019
+    7400218: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..020
+    7400220: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..021
+    7400222: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank.001|
+    7400224: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank.002|
+    7400226: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank|
+    7400228: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank|.001
+    7400230: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank|.002
+    7400232: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank|Bank
+    7400234: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Barn|
+    7400236: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Barn|.001
+    7400238: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Barn|.002
+    7400240: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Barn|Barn
+    7400242: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc
+    7400244: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.001
+    7400246: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.002
+    7400248: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.003
+    7400250: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.004
+    7400252: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.005
+    7400254: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.006
+    7400256: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.007
+    7400258: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.008
+    7400260: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.009
+    7400262: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.010
+    7400264: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.011
+    7400266: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.012
+    7400268: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.013
+    7400270: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.014
+    7400272: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.015
+    7400274: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.016
+    7400276: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.017
+    7400278: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.018
+    7400280: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.019
+    7400282: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.020
+    7400284: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.021
+    7400286: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.022
+    7400288: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.023
+    7400290: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.024
+    7400292: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.025
+    7400294: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.026
+    7400296: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.027
+    7400298: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.028
+    7400300: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.029
+    7400302: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.030
+    7400304: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.031
+    7400306: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.032
+    7400308: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.033
+    7400310: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.034
+    7400312: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.035
+    7400314: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.036
+    7400316: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.037
+    7400318: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.038
+    7400320: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.039
+    7400322: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.040
+    7400324: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.041
+    7400326: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Church.00
+    7400328: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Church|Ch
+    7400330: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Sherr
+    7400332: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Sherr.001
+    7400334: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Sherr.002
+    7400336: 'Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Sherrifs '
+    7400338: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water
+    7400340: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water Tow
+    7400342: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.001
+    7400344: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.002
+    7400346: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.003
+    7400348: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.004
+    7400350: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.005
+    7400352: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.006
+    7400354: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.007
+    7400356: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.008
+    7400358: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.009
+    7400360: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.010
+    7400362: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.011
+    7400364: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.012
+    7400366: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.013
+    7400368: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.014
+    7400370: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.015
+    7400372: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.016
+    7400374: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.017
+    7400376: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.018
+    7400378: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.019
+    7400380: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.020
+    7400382: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.021
+    7400384: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.022
+    7400386: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.023
+    7400388: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.024
+    7400390: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.025
+    7400392: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.026
+    7400394: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.027
+    7400396: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.028
+    7400398: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.029
+    7400400: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.030
+    7400402: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.031
+    7400404: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.032
+    7400406: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.033
+    7400408: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.034
+    7400410: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.035
+    7400412: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.036
+    7400414: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.037
+    7400416: Hotel|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.038
+    7400418: Hotel|Sherrifs Office.001|Sherrifs Office|Church|Church|Box011|Ta
+    7400420: Hotel|Sherrifs Office.001|Sherrifs Office|Church|Church|Box011|Take 0
+    7400422: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She
+    7400424: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.001
+    7400426: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.002
+    7400428: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.003
+    7400430: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.004
+    7400432: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.005
+    7400434: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.006
+    7400436: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.007
+    7400438: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.008
+    7400440: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.009
+    7400442: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.010
+    7400444: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.011
+    7400446: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.012
+    7400448: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.013
+    7400450: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.014
+    7400452: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.015
+    7400454: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.016
+    7400456: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.017
+    7400458: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.018
+    7400460: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.019
+    7400462: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.020
+    7400464: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.021
+    7400466: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.022
+    7400468: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.023
+    7400470: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.024
+    7400472: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.025
+    7400474: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.026
+    7400476: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.027
+    7400478: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.028
+    7400480: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.029
+    7400482: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.030
+    7400484: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.031
+    7400486: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.032
+    7400488: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.033
+    7400490: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.034
+    7400492: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.035
+    7400494: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.036
+    7400496: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.037
+    7400498: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.038
+    7400500: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.039
+    7400502: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.040
+    7400504: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.041
+    7400506: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.042
+    7400508: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.043
+    7400510: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.044
+    7400512: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.045
+    7400514: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.046
+    7400516: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.047
+    7400518: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.048
+    7400520: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.049
+    7400522: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.050
+    7400524: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.051
+    7400526: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.052
+    7400528: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.053
+    7400530: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.054
+    7400532: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.055
+    7400534: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.056
+    7400536: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.057
+    7400538: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.058
+    7400540: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.059
+    7400542: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.060
+    7400544: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.061
+    7400546: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.062
+    7400548: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.063
+    7400550: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.064
+    7400552: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.065
+    7400554: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.066
+    7400556: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.067
+    7400558: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.068
+    7400560: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.069
+    7400562: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.070
+    7400564: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.071
+    7400566: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.072
+    7400568: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.073
+    7400570: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.074
+    7400572: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.075
+    7400574: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.076
+    7400576: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.077
+    7400578: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.078
+    7400580: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.079
+    7400582: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|She.080
+    7400584: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office.001|Sherrif
+    7400586: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office|Sherrif
+    7400588: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office|Sherrif.001
+    7400590: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office|Sherrif.002
+    7400592: Hotel|Sherrifs Office.001|Sherrifs Office|Sherrifs Office|Sherrifs Of
+    7400594: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T
+    7400596: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.001
+    7400598: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.002
+    7400600: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.003
+    7400602: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.004
+    7400604: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.005
+    7400606: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.006
+    7400608: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.007
+    7400610: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.008
+    7400612: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.009
+    7400614: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.010
+    7400616: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.011
+    7400618: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.012
+    7400620: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.013
+    7400622: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.014
+    7400624: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.015
+    7400626: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water T.016
+    7400628: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water Tower
+    7400630: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower|Water Tower
+    7400632: Hotel|Sherrifs Office.001|Sherrifs Office|Water Tower|Water Tower|Box
+    7400634: Hotel|Sherrifs Office|Sherrifs Office|Box048|Take 001|BaseLayer|S
+    7400636: Hotel|Sherrifs Office|Sherrifs Office|Box048|Take 001|BaseLayer|Sherr
+    7400638: Hotel|Water Tower.001|Water Tower|Bank.001|Bank|Bank|Bank|Box020|Take
+    7400640: Hotel|Water Tower.001|Water Tower|Bank.001|Bank|Sherrifs Office|Sherr
+    7400642: Hotel|Water Tower.001|Water Tower|Bank.002|Bank.001|Bank.001|Bank|Ban
+    7400644: Hotel|Water Tower.001|Water Tower|Bank.002|Bank.001|Bank.001|Bank|She
+    7400646: Hotel|Water Tower.001|Water Tower|Bank.002|Bank.001|Bank|Bank|Box020|
+    7400648: Hotel|Water Tower.001|Water Tower|Bank.002|Bank.001|Sherrifs Office|S
+    7400650: Hotel|Water Tower.001|Water Tower|Bank|Bank|Box020|Take 001|BaseLayer
+    7400652: Hotel|Water Tower.001|Water Tower|Sherrifs Office|Sherrifs Office|Box
+    7400654: Hotel|Water Tower.001|Water Tower|Water Tower|Water Tower|Box506|Take
+    7400656: Hotel|Water Tower|Water Tower|Box506|Take 001|BaseLayer|Water Tower|B
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

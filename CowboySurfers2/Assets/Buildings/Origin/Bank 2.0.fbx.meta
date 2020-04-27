@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: ab433df9d3e96454db6978d85c0b9475
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2100000: 16 - Default.004
+    2100002: 09 - Default.004
+    2100004: 01 - Default.004
+    2100006: 'Material #0.001'
+    2100008: 08 - Default.010
+    2100010: 11 - Default.007
+    2100012: 19 - Default.004
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Sherrifs Office
+    7400000: Sherrifs Office|Bank.001|Bank|Bank|Bank|Box020|Take 001|BaseLayer|Bank|Box020|T
+    7400002: Sherrifs Office|Bank.001|Bank|Sherrifs Office|Sherrifs Office|Box048|Take
+      001|B
+    7400004: Sherrifs Office|Bank.002|Bank.001|Bank.001|Bank|Bank|Bank|Box020|Take
+      001|BaseL
+    7400006: Sherrifs Office|Bank.002|Bank.001|Bank.001|Bank|Sherrifs Office|Sherrifs
+      Office
+    7400008: Sherrifs Office|Bank.002|Bank.001|Bank|Bank|Box020|Take 001|BaseLayer|Bank|Box0
+    7400010: Sherrifs Office|Bank.002|Bank.001|Sherrifs Office|Sherrifs Office|Box048|Take
+      0
+    7400012: Sherrifs Office|Bank|Bank|Box020|Take 001|BaseLayer|Bank|Box020|Take
+      001|Ba
+    7400014: Sherrifs Office|Bank|Bank|Box020|Take 001|BaseLayer|Bank|Box020|Take
+      001|BaseLa
+    7400016: Sherrifs Office|Barn|Barn|Box010|Take 001|BaseLayer|Barn|Box010|Take
+      001|BaseLa
+    7400018: Sherrifs Office|Church.001|Church|Bank.001|Bank|Bank|Bank|Box020|Take
+      001|B
+    7400020: Sherrifs Office|Church.001|Church|Bank.001|Bank|Bank|Bank|Box020|Take
+      001|BaseL
+    7400022: Sherrifs Office|Church.001|Church|Bank.001|Bank|Sherrifs Office|Sherrifs
+      Of
+    7400024: Sherrifs Office|Church.001|Church|Bank.001|Bank|Sherrifs Office|Sherrifs
+      Office
+    7400026: Sherrifs Office|Church.001|Church|Bank.002|Bank.001|Bank.001|Bank|Bank|Bank
+    7400028: Sherrifs Office|Church.001|Church|Bank.002|Bank.001|Bank.001|Bank|Bank|Bank|Box
+    7400030: 'Sherrifs Office|Church.001|Church|Bank.002|Bank.001|Bank.001|Bank|Sherrifs '
+    7400032: Sherrifs Office|Church.001|Church|Bank.002|Bank.001|Bank.001|Bank|Sherrifs
+      Offi
+    7400034: Sherrifs Office|Church.001|Church|Bank.002|Bank.001|Bank|Bank|Box020|Take
+      0
+    7400036: Sherrifs Office|Church.001|Church|Bank.002|Bank.001|Bank|Bank|Box020|Take
+      001|B
+    7400038: Sherrifs Office|Church.001|Church|Bank.002|Bank.001|Sherrifs Office|Sherrif
+    7400040: Sherrifs Office|Church.001|Church|Bank.002|Bank.001|Sherrifs Office|Sherrifs
+      Of
+    7400042: Sherrifs Office|Church.001|Church|Bank|Bank|Box020|Take 001|BaseLayer|Bank|
+    7400044: Sherrifs Office|Church.001|Church|Bank|Bank|Box020|Take 001|BaseLayer|Bank|Box0
+    7400046: Sherrifs Office|Church.001|Church|Barn|Barn|Box010|Take 001|BaseLayer|Barn|
+    7400048: Sherrifs Office|Church.001|Church|Barn|Barn|Box010|Take 001|BaseLayer|Barn|Box0
+    7400050: Sherrifs Office|Church.001|Church|Church.001|Church|Bank.001|Bank|Bank|Bank|Box
+    7400052: Sherrifs Office|Church.001|Church|Church.001|Church|Bank.001|Bank|Sherrifs
+      Offi
+    7400054: Sherrifs Office|Church.001|Church|Church.001|Church|Bank.002|Bank.001|Bank.
+    7400056: Sherrifs Office|Church.001|Church|Church.001|Church|Bank.002|Bank.001|Bank.001|
+    7400058: Sherrifs Office|Church.001|Church|Church.001|Church|Bank.002|Bank.001|Bank|Bank
+    7400060: 'Sherrifs Office|Church.001|Church|Church.001|Church|Bank.002|Bank.001|Sherrifs '
+    7400062: Sherrifs Office|Church.001|Church|Church.001|Church|Bank|Bank|Box020|Take
+      001|B
+    7400064: Sherrifs Office|Church.001|Church|Church.001|Church|Barn|Barn|Box010|Take
+      001|B
+    7400066: Sherrifs Office|Church.001|Church|Church.001|Church|Church|Church|Box011|Take
+      0
+    7400068: Sherrifs Office|Church.001|Church|Church.001|Church|Sherrifs Office|Sherrifs
+      Of
+    7400070: Sherrifs Office|Church.001|Church|Church.001|Church|Water Tower.001|Water
+      T
+    7400072: Sherrifs Office|Church.001|Church|Church.001|Church|Water Tower.001|Water
+      T.001
+    7400074: Sherrifs Office|Church.001|Church|Church.001|Church|Water Tower.001|Water
+      T.002
+    7400076: Sherrifs Office|Church.001|Church|Church.001|Church|Water Tower.001|Water
+      T.003
+    7400078: Sherrifs Office|Church.001|Church|Church.001|Church|Water Tower.001|Water
+      T.004
+    7400080: Sherrifs Office|Church.001|Church|Church.001|Church|Water Tower.001|Water
+      T.005
+    7400082: Sherrifs Office|Church.001|Church|Church.001|Church|Water Tower.001|Water
+      T.006
+    7400084: Sherrifs Office|Church.001|Church|Church.001|Church|Water Tower.001|Water
+      T.007
+    7400086: Sherrifs Office|Church.001|Church|Church.001|Church|Water Tower.001|Water
+      Tower
+    7400088: Sherrifs Office|Church.001|Church|Church.001|Church|Water Tower|Water
+      Tower|Box
+    7400090: Sherrifs Office|Church.001|Church|Church|Church|Box011|Take 001|BaseLayer|C
+    7400092: Sherrifs Office|Church.001|Church|Church|Church|Box011|Take 001|BaseLayer|Churc
+    7400094: Sherrifs Office|Church.001|Church|Sherrifs Office|Sherrifs Office|Box048|Ta
+    7400096: Sherrifs Office|Church.001|Church|Sherrifs Office|Sherrifs Office|Box048|Take
+      0
+    7400098: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Bank.001|Bank
+    7400100: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Bank.001|Bank.001
+    7400102: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Bank.001|Bank|Ban
+    7400104: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Bank.001|Bank|She
+    7400106: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.001
+    7400108: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.002
+    7400110: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.003
+    7400112: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.004
+    7400114: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.005
+    7400116: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.006
+    7400118: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.007
+    7400120: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Bank.002|Bank.008
+    7400122: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Bank|Bank|Box
+    7400124: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Bank|Bank|Box020|
+    7400126: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Sherrifs
+      Offi
+    7400128: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Sherrifs
+      Office|S
+    7400130: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Water Tower|W
+    7400132: Sherrifs Office|Church.001|Church|Water Tower.001|Water Tower|Water Tower|Water
+    7400134: Sherrifs Office|Church.001|Church|Water Tower|Water Tower|Box506|Take
+      001|B
+    7400136: Sherrifs Office|Church.001|Church|Water Tower|Water Tower|Box506|Take
+      001|BaseL
+    7400138: Sherrifs Office|Church|Church|Box011|Take 001|BaseLayer|Church|Box011|Take
+      001|
+    7400140: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Bank.001|Bank|Bank|Bank|Box
+    7400142: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Bank.001|Bank|Sherrifs
+      Offi
+    7400144: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Bank.002|Bank.001|Bank.
+    7400146: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Bank.002|Bank.001|Bank.001|
+    7400148: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Bank.002|Bank.001|Bank|Bank
+    7400150: 'Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Bank.002|Bank.001|Sherrifs '
+    7400152: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Bank|Bank|Box020|Take
+      0
+    7400154: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Bank|Bank|Box020|Take
+      001|B
+    7400156: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Barn|Barn|Box010|Take
+      001|B
+    7400158: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank.
+    7400160: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..001
+    7400162: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..002
+    7400164: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..003
+    7400166: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..004
+    7400168: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..005
+    7400170: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..006
+    7400172: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..007
+    7400174: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..008
+    7400176: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank..009
+    7400178: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank.001|
+    7400180: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank.002|
+    7400182: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank|
+    7400184: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Bank|Bank
+    7400186: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Barn|
+    7400188: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Barn|Barn
+    7400190: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc
+    7400192: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.001
+    7400194: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.002
+    7400196: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.003
+    7400198: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.004
+    7400200: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.005
+    7400202: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.006
+    7400204: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.007
+    7400206: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.008
+    7400208: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.009
+    7400210: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.010
+    7400212: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.011
+    7400214: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.012
+    7400216: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.013
+    7400218: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.014
+    7400220: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.015
+    7400222: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.016
+    7400224: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.017
+    7400226: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.018
+    7400228: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Churc.019
+    7400230: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Church.00
+    7400232: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Church|Ch
+    7400234: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Sherr
+    7400236: 'Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Sherrifs '
+    7400238: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water
+    7400240: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water
+      Tow
+    7400242: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.001
+    7400244: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.002
+    7400246: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.003
+    7400248: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.004
+    7400250: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.005
+    7400252: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.006
+    7400254: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.007
+    7400256: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.008
+    7400258: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.009
+    7400260: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.010
+    7400262: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.011
+    7400264: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.012
+    7400266: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.013
+    7400268: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.014
+    7400270: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.015
+    7400272: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.016
+    7400274: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.017
+    7400276: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church.001|Church|Water.018
+    7400278: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Church|Church|Box011|Take
+      0
+    7400280: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Sherrifs Office|Sherrif
+    7400282: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Sherrifs Office|Sherrifs
+      Of
+    7400284: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water
+      T
+    7400286: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water
+      T.001
+    7400288: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water
+      T.002
+    7400290: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water
+      T.003
+    7400292: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water
+      T.004
+    7400294: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water
+      T.005
+    7400296: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water
+      T.006
+    7400298: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water
+      T.007
+    7400300: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Water Tower.001|Water
+      Tower
+    7400302: Sherrifs Office|Sherrifs Office.001|Sherrifs Office|Water Tower|Water
+      Tower|Box
+    7400304: Sherrifs Office|Sherrifs Office|Sherrifs Office|Box048|Take 001|BaseLayer|S
+    7400306: Sherrifs Office|Sherrifs Office|Sherrifs Office|Box048|Take 001|BaseLayer|Sherr
+    7400308: Sherrifs Office|Water Tower.001|Water Tower|Bank.001|Bank|Bank|Bank|Box020|Take
+    7400310: Sherrifs Office|Water Tower.001|Water Tower|Bank.001|Bank|Sherrifs Office|Sherr
+    7400312: Sherrifs Office|Water Tower.001|Water Tower|Bank.002|Bank.001|Bank.001|Bank|Ban
+    7400314: Sherrifs Office|Water Tower.001|Water Tower|Bank.002|Bank.001|Bank.001|Bank|She
+    7400316: Sherrifs Office|Water Tower.001|Water Tower|Bank.002|Bank.001|Bank|Bank|Box020|
+    7400318: Sherrifs Office|Water Tower.001|Water Tower|Bank.002|Bank.001|Sherrifs
+      Office|S
+    7400320: Sherrifs Office|Water Tower.001|Water Tower|Bank|Bank|Box020|Take 001|BaseLayer
+    7400322: Sherrifs Office|Water Tower.001|Water Tower|Sherrifs Office|Sherrifs
+      Office|Box
+    7400324: Sherrifs Office|Water Tower.001|Water Tower|Water Tower|Water Tower|Box506|Take
+    7400326: Sherrifs Office|Water Tower|Water Tower|Box506|Take 001|BaseLayer|Water
+      Tower|B
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
