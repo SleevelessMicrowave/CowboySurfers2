@@ -15,6 +15,9 @@ public class GM : MonoBehaviour {
 
     public float waitToLoad = 0;
 
+    public static int greatestBottle = 0;
+    public static float greatestTime = 0;
+
     public static string lvlCompStatus = "";
 
     public GameObject[] routes = new GameObject[7];
@@ -72,13 +75,20 @@ public class GM : MonoBehaviour {
         if (lvlCompStatus != "fail")
         {
             timeTotal += Time.deltaTime;
-
+            
         }
        
 		
         if (lvlCompStatus == "fail")
         {
-            
+            if (greatestBottle < GM.coinTotal)
+            {
+                greatestBottle = GM.coinTotal;
+            }
+            if ((Mathf.Round(GM.timeTotal * 10)) / 10 > greatestTime)
+            {
+                greatestTime = (Mathf.Round(GM.timeTotal * 10)) / 10;
+            }
             waitToLoad += Time.deltaTime;
         }
 

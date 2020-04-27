@@ -27,7 +27,8 @@ public class playAnimation : MonoBehaviour {
     public void PlayButtonClicked()
     {
         playButton.SetActive(true);
-        
+        GM.coinTotal = 0;
+        GM.timeTotal = 0;
         SceneManager.LoadScene("Main");
     }
 	
