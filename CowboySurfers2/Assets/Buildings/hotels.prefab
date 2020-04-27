@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33073377070886780}
   - component: {fileID: 23882355508857392}
   - component: {fileID: 95074609608168832}
+  - component: {fileID: 114119426752555994}
   m_Layer: 0
   m_Name: hotels
   m_TagString: Untagged
@@ -105,3 +106,14 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114119426752555994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1271177354389502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96b3fb22175173408e60f49c4135112, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

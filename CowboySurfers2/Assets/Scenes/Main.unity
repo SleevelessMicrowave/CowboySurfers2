@@ -438,8 +438,8 @@ MonoBehaviour:
   waitToLoad: 0
   routes:
   - {fileID: 1455667708392830, guid: 7d336d6b6b402ed4a9c540e821ce26ee, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1007633759455452, guid: 3ebcfed6b98cd7045b2a722b1e0c6031, type: 2}
+  - {fileID: 1380021954603172, guid: 923f64177c2396e4eb59ee0e647524bc, type: 2}
   - {fileID: 1620265592911428, guid: 991e9566040647c4ca46b757e41a9a0c, type: 2}
   - {fileID: 1587980389337064, guid: 1f94bfd53a7b8d54392ed080e21c1ae5, type: 2}
   - {fileID: 1072484101282362, guid: 5e6ed00bfc6b5dd48b9fa38bef991f86, type: 2}
@@ -450,7 +450,14 @@ MonoBehaviour:
   - {fileID: 1378905737024906, guid: 5219f3071c4085e45bfe4d9e362853cb, type: 2}
   buildings:
   - {fileID: 1737084328427458, guid: 3cfae7348e14f3c4e98f0db2ac9badb4, type: 2}
+  - {fileID: 1053465304109300, guid: bf074e1e6f2a3324f9ffe60c6b2fa066, type: 2}
+  - {fileID: 1816960042636656, guid: 3bac7fc145be85f4a9d34957a3b066b4, type: 2}
+  - {fileID: 1619303418941216, guid: 117e0dc6b880f0f40892cf261e393c72, type: 2}
+  - {fileID: 1822847086366284, guid: c9e6538881c2c8f4db270e2ea5efbdad, type: 2}
+  - {fileID: 1764444708066840, guid: f6a68ad00a8966c4688e90c23d1d6e5a, type: 2}
   - {fileID: 1176173458638726, guid: 217b173405f15b6439902e59549b1940, type: 2}
+  - {fileID: 1405222326723970, guid: ed180bb761b5e9b449b6d6416cc0d006, type: 2}
+  - {fileID: 1271177354389502, guid: fb347a92519cb044fb067b9784bc4efd, type: 2}
   ground: {fileID: 1483518926610252, guid: 52ed8c820203da546b74259e28aa97c5, type: 2}
   player: {fileID: 2131171811}
 --- !u!4 &553658364

@@ -49,15 +49,15 @@ public class GM : MonoBehaviour {
                 for (int i = 0; i < 5; i++)
                 {
                     int num = Random.Range(0, 7);
-                    int buildingNum = Random.Range(0, 5);
-                    int anotherBuildingNum = Random.Range(0, 5);
+                    int buildingNum = Random.Range(0, 9);
+                    int anotherBuildingNum = Random.Range(0, 9);
                     Instantiate(ground, new Vector3(0, 0, zScenePos), ground.transform.rotation);
                     Instantiate(buildings[buildingNum], new Vector3(-7, 0.5f, zScenePos), buildings[0].transform.rotation);
-                    buildingNum = Random.Range(0, 5);
+                    buildingNum = Random.Range(0, 9);
                     Instantiate(buildings[buildingNum], new Vector3(-7, 0.5f, zScenePos + 10), buildings[0].transform.rotation);
                     
                     Instantiate(buildings[anotherBuildingNum], new Vector3(7, 0.5f, zScenePos-5), Quaternion.Euler(-90, 0, 180));
-                    anotherBuildingNum = Random.Range(0, 5);
+                    anotherBuildingNum = Random.Range(0, 9);
                     Instantiate(buildings[anotherBuildingNum], new Vector3(7, 0.5f, zScenePos + 5), Quaternion.Euler(-90, 0, 180));
                     Instantiate(routes[num], new Vector3(0, 0, zScenePos), routes[0].transform.rotation);
                     zScenePos += 20;
