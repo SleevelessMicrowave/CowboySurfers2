@@ -10,8 +10,8 @@ public class GM : MonoBehaviour {
     public static float timeTotal = 0;
     public static float zVelAdj = 1;
 
-    public KeyCode dynamite;
-    public KeyCode lasso;
+    public static KeyCode dynamite = KeyCode.Q;
+    public static KeyCode lasso = KeyCode.E;
 
     public float waitToLoad = 0;
 
