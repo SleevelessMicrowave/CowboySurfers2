@@ -55,10 +55,12 @@ public class moveChar : MonoBehaviour {
 
         if ((Input.GetKeyDown(moveR) && (laneNum < 3) && controlLocked == false))
         {
+           
             horizVel = 2.7f;
             StartCoroutine(StopSlide());
             laneNum++;
             controlLocked = true;
+           
         }
 
         if (Input.GetKeyDown(jump) && isGrounded && jumpLocked == false)
@@ -66,11 +68,12 @@ public class moveChar : MonoBehaviour {
             GM.vertVel = 3;
             StartCoroutine(StopJump());
             jumpLocked = true;
+            SoundManagerScript.playSound("AlternativeJumpSound");
         }
 
         if (Input.GetKeyDown(down) && crouchLocked == false && jumpLocked == false)
         {
-            
+            SoundManagerScript.playSound("slide");
             gameObject.transform.localScale = new Vector3(0.8749517f, 0.5f, .8749518f);
             Vector3 position = gameObject.transform.position;
             position[1] = .955f;
