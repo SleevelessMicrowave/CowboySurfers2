@@ -27,6 +27,7 @@ public class playAnimation : MonoBehaviour {
     public void PlayButtonClicked()
     {
         playButton.SetActive(true);
+        
         SceneManager.LoadScene("Main");
     }
 	
