@@ -99,6 +99,7 @@ public class GM : MonoBehaviour {
 
         if (Input.GetKeyDown(dynamite) && !dynamiteLocked)
         {
+            SoundManagerScript.playSound("explosion");
             GameObject[] enemies = GameObject.FindGameObjectsWithTag("lethal");
             for (int i = 0; i < enemies.Length; i++)
             {
@@ -116,7 +117,7 @@ public class GM : MonoBehaviour {
 
         if (Input.GetKeyDown(lasso) && !lassoLocked)
         {
-            
+            SoundManagerScript.playSound("whoosh");
             GameObject[] bottle = GameObject.FindGameObjectsWithTag("bottles");
             for (int i = 0; i < bottle.Length; i++)
             {
