@@ -25,7 +25,7 @@ public class GM : MonoBehaviour {
     public GameObject ground;
 
     private int zScenePos = 20;
-    private float zScenePosLimit = 0;
+    private float zScenePosLimit = -10;
 
     public GameObject player;
 
