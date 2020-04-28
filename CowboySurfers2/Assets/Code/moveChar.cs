@@ -12,6 +12,8 @@ public class moveChar : MonoBehaviour {
 
     public float horizVel = 0;
     public float vertVel = 0;
+    public static float zVel = 4;
+
     public int laneNum = 2;
     public bool controlLocked = false;
     public bool crouchLocked = false;
@@ -36,7 +38,7 @@ public class moveChar : MonoBehaviour {
     // Update is called once per frame
     void Update() {
 
-        GetComponent<Rigidbody>().velocity = new Vector3(horizVel, GM.vertVel, 4);
+        GetComponent<Rigidbody>().velocity = new Vector3(horizVel, GM.vertVel, zVel);
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
@@ -95,7 +97,8 @@ public class moveChar : MonoBehaviour {
             Destroy(gameObject);
             //Destroy(cowboy);
             GM.zVelAdj = 0;
-            Instantiate(boomObj, transform.position, boomObj.rotation);
+            zVel = 0;
+            //Instantiate(boomObj, transform.position, boomObj.rotation);
             GM.lvlCompStatus = "fail";
             
         }

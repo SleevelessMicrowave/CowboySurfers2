@@ -46,7 +46,7 @@ public class GM : MonoBehaviour {
         if (player != null)
         {
             Vector3 position = player.transform.position;
-            
+        
             if (position[2] > zScenePosLimit)
             {
                 for (int i = 0; i < 5; i++)

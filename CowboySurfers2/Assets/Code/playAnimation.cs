@@ -29,6 +29,7 @@ public class playAnimation : MonoBehaviour {
         playButton.SetActive(true);
         GM.coinTotal = 0;
         GM.timeTotal = 0;
+        moveChar.zVel = 4;
         SceneManager.LoadScene("Main");
     }
 	
