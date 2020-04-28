@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class rollController : MonoBehaviour {
 
-    public Animator roll;
+    public static Animator roll;
     public KeyCode down;
     public GameObject myChildObject;
     public GameObject myParentObject;
@@ -28,10 +28,13 @@ public class rollController : MonoBehaviour {
             rollLocked = true;
             StartCoroutine(stopCrouch());
         }
+
         
 
-
     }
+
+
+    
 
     IEnumerator stopCrouch()
     {

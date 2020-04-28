@@ -91,9 +91,9 @@ public class moveChar : MonoBehaviour {
         
         if (other.gameObject.tag == "lethal")
         {
-
+            rollController.roll.Play("Fall Back");
             Destroy(gameObject);
-            Destroy(cowboy);
+            //Destroy(cowboy);
             GM.zVelAdj = 0;
             Instantiate(boomObj, transform.position, boomObj.rotation);
             GM.lvlCompStatus = "fail";
