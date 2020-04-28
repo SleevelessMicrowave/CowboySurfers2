@@ -34,19 +34,21 @@ public class rollController : MonoBehaviour {
     }
 
 
-    
+
 
     IEnumerator stopCrouch()
     {
+
         yield return new WaitForSeconds(1.1f);
 
 
-
+        if (GM.lvlCompStatus != "fail")
+        { 
         myChildObject.transform.position = myParentObject.transform.position;
         myChildObject.transform.rotation = myParentObject.transform.rotation;
         rollLocked = false;
         roll.Play("Run");
-        
+        }
         
     }
 }
