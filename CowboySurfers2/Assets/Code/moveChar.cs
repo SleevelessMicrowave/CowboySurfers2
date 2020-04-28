@@ -76,7 +76,7 @@ public class moveChar : MonoBehaviour {
         if (Input.GetKeyDown(down) && crouchLocked == false && jumpLocked == false)
         {
             SoundManagerScript.playSound("slide");
-            gameObject.transform.localScale = new Vector3(0.8749517f, 0.5f, .8749518f);
+            gameObject.transform.localScale = new Vector3(0.5132241f, 0.5f, 0.5637311f);
             Vector3 position = gameObject.transform.position;
             position[1] = .955f;
             gameObject.transform.position = position;
@@ -149,7 +149,7 @@ public class moveChar : MonoBehaviour {
         Vector3 position = gameObject.transform.position;
         position[1] = 1.133f;
         gameObject.transform.position = position;
-        gameObject.transform.localScale = new Vector3(0.8749517f, 0.8838291f, .8749518f);
+        gameObject.transform.localScale = new Vector3(0.5132241f, 0.8838291f, 0.5637311f);
         crouchLocked = false;
     }
 }

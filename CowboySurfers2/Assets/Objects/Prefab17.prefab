@@ -77,8 +77,8 @@ GameObject:
   - component: {fileID: 23773488153233214}
   - component: {fileID: 65015364992802704}
   m_Layer: 0
-  m_Name: WaterBottle (6)
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,8 +95,8 @@ GameObject:
   - component: {fileID: 23704544451211542}
   - component: {fileID: 65073856602783204}
   m_Layer: 0
-  m_Name: WaterBottle (11)
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,8 +149,8 @@ GameObject:
   - component: {fileID: 23318135237583098}
   - component: {fileID: 65451826436465400}
   m_Layer: 0
-  m_Name: WaterBottle (5)
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -221,8 +221,8 @@ GameObject:
   - component: {fileID: 23181976078816938}
   - component: {fileID: 65453486573317222}
   m_Layer: 0
-  m_Name: WaterBottle (9)
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -239,8 +239,8 @@ GameObject:
   - component: {fileID: 23847899259536692}
   - component: {fileID: 65764462224460036}
   m_Layer: 0
-  m_Name: WaterBottle (13)
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -257,8 +257,8 @@ GameObject:
   - component: {fileID: 23724633921154350}
   - component: {fileID: 65258243810677146}
   m_Layer: 0
-  m_Name: WaterBottle
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -275,8 +275,8 @@ GameObject:
   - component: {fileID: 23622396913036282}
   - component: {fileID: 65628674309905366}
   m_Layer: 0
-  m_Name: WaterBottle (3)
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -330,8 +330,8 @@ GameObject:
   - component: {fileID: 23100018210898990}
   - component: {fileID: 65954463031496948}
   m_Layer: 0
-  m_Name: WaterBottle (4)
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -348,8 +348,8 @@ GameObject:
   - component: {fileID: 23633057770283960}
   - component: {fileID: 65995271100915780}
   m_Layer: 0
-  m_Name: WaterBottle (12)
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -366,8 +366,8 @@ GameObject:
   - component: {fileID: 23118753127367930}
   - component: {fileID: 65180909609248050}
   m_Layer: 0
-  m_Name: WaterBottle (7)
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -384,8 +384,8 @@ GameObject:
   - component: {fileID: 23314355570085096}
   - component: {fileID: 65384551082079880}
   m_Layer: 0
-  m_Name: WaterBottle (14)
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -402,8 +402,8 @@ GameObject:
   - component: {fileID: 23079015608290266}
   - component: {fileID: 65747569585067686}
   m_Layer: 0
-  m_Name: WaterBottle (8)
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -420,8 +420,8 @@ GameObject:
   - component: {fileID: 23258700327126120}
   - component: {fileID: 65577646878700568}
   m_Layer: 0
-  m_Name: WaterBottle (1)
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -438,8 +438,8 @@ GameObject:
   - component: {fileID: 23522532299899736}
   - component: {fileID: 65511456625108554}
   m_Layer: 0
-  m_Name: WaterBottle (2)
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -456,8 +456,8 @@ GameObject:
   - component: {fileID: 23480094898670794}
   - component: {fileID: 65751149564039704}
   m_Layer: 0
-  m_Name: WaterBottle (10)
-  m_TagString: Bottle_Good
+  m_Name: waterBottle
+  m_TagString: bottles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -638,7 +638,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1409415967471664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: -3.3308494, y: 7.0128875, z: 8.010943}
   m_LocalScale: {x: 5, y: 1, z: 20}
   m_Children:
   - {fileID: 4340953129973926}

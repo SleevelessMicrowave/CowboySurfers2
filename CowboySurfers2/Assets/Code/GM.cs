@@ -51,7 +51,7 @@ public class GM : MonoBehaviour {
             {
                 for (int i = 0; i < 5; i++)
                 {
-                    int num = Random.Range(0, 7);
+                    int num = Random.Range(0, 21);
                     int buildingNum = Random.Range(0, 9);
                     int anotherBuildingNum = Random.Range(0, 9);
                     Instantiate(ground, new Vector3(0, 0, zScenePos), ground.transform.rotation);

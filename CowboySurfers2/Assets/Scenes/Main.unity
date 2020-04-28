@@ -597,6 +597,16 @@ MonoBehaviour:
   - {fileID: 1494746639588940, guid: bca47a5b05d05d040ae90d096cfb2aa4, type: 2}
   - {fileID: 1919366035551404, guid: 066dc4827646c03498a8481853159710, type: 2}
   - {fileID: 1378905737024906, guid: 5219f3071c4085e45bfe4d9e362853cb, type: 2}
+  - {fileID: 1895656410503456, guid: 1addb81fa48d42e4baf41655d1eaae0f, type: 2}
+  - {fileID: 1820450568696214, guid: fcec09ee1e43ad54598f48f24473240a, type: 2}
+  - {fileID: 1658492654640808, guid: 1619b6d20318cf74da0c5350e3bd41f4, type: 2}
+  - {fileID: 1121473915296212, guid: 684eee20343236547898ac65d764f4b5, type: 2}
+  - {fileID: 1139820705375968, guid: 2af284f32baf59b42a49906f886b1307, type: 2}
+  - {fileID: 1636787459139616, guid: 8f2be8aded447fb4aab4877fec96f240, type: 2}
+  - {fileID: 1409415967471664, guid: 253bdd8ac475c65468b4089c48db4328, type: 2}
+  - {fileID: 1033846916061632, guid: 89a7a8c8f8b03d54e8e5e37f6325eae1, type: 2}
+  - {fileID: 1884488269086470, guid: 724fbca61e1a78a4e9aa7c8a78f56a4c, type: 2}
+  - {fileID: 1665519339705200, guid: 1e5c3fa32f7fb8c43aa5633bf7b8fcb0, type: 2}
   buildings:
   - {fileID: 1737084328427458, guid: 3cfae7348e14f3c4e98f0db2ac9badb4, type: 2}
   - {fileID: 1053465304109300, guid: bf074e1e6f2a3324f9ffe60c6b2fa066, type: 2}
@@ -1489,7 +1499,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1382794092}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a6f3b249195a95d4b972ab3193ae0216, type: 3}
   m_Name: 
