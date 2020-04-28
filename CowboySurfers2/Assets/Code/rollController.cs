@@ -21,7 +21,7 @@ public class rollController : MonoBehaviour {
         
         
         
-        if (Input.GetKeyDown(down) && rollLocked == false)
+        if (Input.GetKeyDown(down) && rollLocked == false && GM.lvlCompStatus != "fail")
         {
             
             roll.Play("Roll");
