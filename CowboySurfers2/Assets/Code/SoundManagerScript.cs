@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour {
-    public static AudioClip jump,slide;
+    public static AudioClip jump,slide,explosion,whoosh;
     static AudioSource audioSrc;
 	// Use this for initialization
 	void Start () {
         jump = Resources.Load<AudioClip>("AlternativeJumpSound");
         slide = Resources.Load<AudioClip>("slide");
+        explosion = Resources.Load<AudioClip>("explosion");
+        whoosh = Resources.Load<AudioClip>("whoosh");
         audioSrc = GetComponent<AudioSource>();
 	}
 	
@@ -26,7 +28,12 @@ public class SoundManagerScript : MonoBehaviour {
             case "slide":
                 audioSrc.PlayOneShot(slide);
                 break;
-       
+            case "explosion":
+                audioSrc.PlayOneShot(explosion);
+                break;
+            case "whoosh":
+                audioSrc.PlayOneShot(whoosh);
+                break;
         }
     }
 }
