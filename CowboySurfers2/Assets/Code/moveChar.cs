@@ -93,6 +93,7 @@ public class moveChar : MonoBehaviour {
         
         if (other.gameObject.tag == "lethal")
         {
+            SoundManagerScript.playSound("death");
             rollController.roll.Play("Fall Back");
             Destroy(gameObject);
             //Destroy(cowboy);
@@ -120,6 +121,7 @@ public class moveChar : MonoBehaviour {
         }
         if (other.gameObject.name == "waterBottle")
         {
+            SoundManagerScript.playSound("pop");
             Destroy(other.gameObject);
             GM.coinTotal++;
         }
