@@ -12,7 +12,7 @@ public class playAnimation : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        StartCoroutine(videoLength());
+        //StartCoroutine(videoLength());
 
         
         
