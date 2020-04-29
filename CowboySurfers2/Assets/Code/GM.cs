@@ -8,6 +8,8 @@ public class GM : MonoBehaviour {
     public static float vertVel = 0;
     public static int coinTotal = 0;
     public static float timeTotal = 0;
+    public static int tmpcoinTotal = 0;
+    public static float tmptimeTotal = 0;
     public static float zVelAdj = 1;
 
     public static KeyCode dynamite = KeyCode.Q;
@@ -81,6 +83,8 @@ public class GM : MonoBehaviour {
 		
         if (lvlCompStatus == "fail")
         {
+            tmpcoinTotal = coinTotal;
+           tmptimeTotal = timeTotal;
             if (greatestBottle < GM.coinTotal)
             {
                 greatestBottle = GM.coinTotal;
