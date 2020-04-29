@@ -22,6 +22,7 @@ public class moveChar : MonoBehaviour {
     public GameObject cowboy;
     public GameObject sphere;
     public GameObject cube;
+    public GameObject runner;
 
     public Transform boomObj;
 
@@ -45,6 +46,11 @@ public class moveChar : MonoBehaviour {
         if (sphere != null)
         { 
         sphere.transform.rotation = cube.transform.rotation;
+        }
+
+        if (runner != null)
+        {
+            runner.transform.rotation = cube.transform.rotation;
         }
 
         if ((Input.GetKeyDown(moveL) && (laneNum > 1) && controlLocked == false) && GM.lvlCompStatus != "fail")
@@ -140,6 +146,9 @@ public class moveChar : MonoBehaviour {
         GM.vertVel = -3;
         yield return new WaitForSeconds(.35f);
         GM.vertVel = 0;
+        Vector3 position = runner.transform.position;
+        position[1] = 0.4680389f;
+        runner.transform.position = position;
         jumpLocked = false;
     }
 
