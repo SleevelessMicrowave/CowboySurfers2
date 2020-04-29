@@ -97,7 +97,7 @@ public class GM : MonoBehaviour {
             SceneManager.LoadScene("LevelComplete");
         }
 
-        if (Input.GetKeyDown(dynamite) && !dynamiteLocked)
+        if (Input.GetKeyDown(dynamite) && !dynamiteLocked && lvlCompStatus != "fail")
         {
             SoundManagerScript.playSound("explosion");
             GameObject[] enemies = GameObject.FindGameObjectsWithTag("lethal");
@@ -115,7 +115,7 @@ public class GM : MonoBehaviour {
             StartCoroutine(DynamiteUnlock());
         }
 
-        if (Input.GetKeyDown(lasso) && !lassoLocked)
+        if (Input.GetKeyDown(lasso) && !lassoLocked && lvlCompStatus != "fail")
         {
             SoundManagerScript.playSound("whoosh");
             GameObject[] bottle = GameObject.FindGameObjectsWithTag("bottles");

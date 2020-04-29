@@ -47,7 +47,7 @@ public class moveChar : MonoBehaviour {
         sphere.transform.rotation = cube.transform.rotation;
         }
 
-        if ((Input.GetKeyDown(moveL) && (laneNum > 1) && controlLocked == false))
+        if ((Input.GetKeyDown(moveL) && (laneNum > 1) && controlLocked == false) && GM.lvlCompStatus != "fail")
         {
             horizVel = -2.7f;
             StartCoroutine(StopSlide());
@@ -55,7 +55,7 @@ public class moveChar : MonoBehaviour {
             controlLocked = true;
         }
 
-        if ((Input.GetKeyDown(moveR) && (laneNum < 3) && controlLocked == false))
+        if ((Input.GetKeyDown(moveR) && (laneNum < 3) && controlLocked == false) && GM.lvlCompStatus != "fail")
         {
            
             horizVel = 2.7f;
