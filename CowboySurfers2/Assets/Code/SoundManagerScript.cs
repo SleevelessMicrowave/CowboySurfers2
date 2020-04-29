@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour {
-    public static AudioClip jump,slide,explosion,whoosh;
+    public static AudioClip jump,slide,explosion,whoosh,death,pop;
     static AudioSource audioSrc;
 	// Use this for initialization
 	void Start () {
@@ -11,6 +11,8 @@ public class SoundManagerScript : MonoBehaviour {
         slide = Resources.Load<AudioClip>("slide");
         explosion = Resources.Load<AudioClip>("explosion");
         whoosh = Resources.Load<AudioClip>("whoosh");
+        death = Resources.Load<AudioClip>("death");
+        pop = Resources.Load<AudioClip>("pop");
         audioSrc = GetComponent<AudioSource>();
 	}
 	
@@ -33,6 +35,12 @@ public class SoundManagerScript : MonoBehaviour {
                 break;
             case "whoosh":
                 audioSrc.PlayOneShot(whoosh);
+                break;
+            case "death":
+                audioSrc.PlayOneShot(death);
+                break;
+            case "pop":
+                audioSrc.PlayOneShot(pop);
                 break;
         }
     }
