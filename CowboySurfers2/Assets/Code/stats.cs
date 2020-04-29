@@ -19,6 +19,7 @@ public class stats : MonoBehaviour {
         GM.coinTotal = 0;
         GM.timeTotal = 0;
         GM.zVelAdj = 1;
+        GM.vertVel = 0;
         moveChar.zVel = 4;
         SceneManager.LoadScene("Main");
 
