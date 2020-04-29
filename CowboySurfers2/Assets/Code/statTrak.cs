@@ -18,7 +18,7 @@ public class statTrak : MonoBehaviour {
 	void Update () {
         maxBottles.text = "Most Bottles Collected: " + GM.greatestBottle;
         maxTime.text = "Most Time Survived: " + GM.greatestTime;
-        //bottles.text = "Bottles Collected: " + GM.coinTotal;
-        //time.text = "Time Survived: " + GM.timeTotal;
+        bottles.text = "Bottles Collected: " + GM.coinTotal;
+        time.text = "Time Survived: " + GM.timeTotal;
     }
 }
