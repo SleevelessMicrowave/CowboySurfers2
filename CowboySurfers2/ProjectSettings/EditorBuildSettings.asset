@@ -18,5 +18,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: 0031898246294074b9a5d4dd5fac4662
   - enabled: 1
+    path: Assets/Scenes/End Animation.unity
+    guid: 27766d79e9ad48f4ebe8dcda77fb18f9
+  - enabled: 1
     path: Assets/Scenes/LevelComplete.unity
     guid: b9f8bd5be8cbf3647b0db27331bf3b4d

@@ -12,6 +12,8 @@ public class GM : MonoBehaviour {
     public static float tmptimeTotal = 0;
     public static float zVelAdj = 1;
 
+    private static int lastScene = 0;
+
     public static KeyCode dynamite = KeyCode.Q;
     public static KeyCode lasso = KeyCode.E;
 
@@ -98,7 +100,16 @@ public class GM : MonoBehaviour {
 
         if (waitToLoad > 2)
         {
-            SceneManager.LoadScene("LevelComplete");
+            if (lastScene < 1)
+            {
+                SceneManager.LoadScene("End Animation");
+                lastScene++;
+            }
+            else
+            {
+                SceneManager.LoadScene("LevelComplete");
+
+            }
         }
 
         if (Input.GetKeyDown(dynamite) && !dynamiteLocked && lvlCompStatus != "fail")
