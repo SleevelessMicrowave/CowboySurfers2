@@ -587,6 +587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playButton: {fileID: 849167169}
+  outro: {fileID: 758201102}
 --- !u!1 &1373798381
 GameObject:
   m_ObjectHideFlags: 0
