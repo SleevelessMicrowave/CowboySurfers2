@@ -11,6 +11,7 @@ public class animationTime : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         intro.url = System.IO.Path.Combine(Application.streamingAssetsPath, "Game_Intro_VideoOnly.mov");
+        intro.Play();
         StartCoroutine(videoLength());
     }
 
